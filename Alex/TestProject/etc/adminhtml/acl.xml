@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Magento_Backend::content">
+                    <resource id="Alex_TestProject::question_content" title="Questions" sortOrder="10" >
+                        <resource id="Alex_TestProject::questions" title="User questions" sortOrder="40">
+                            <resource id="Alex_TestProject::save" title="Save question" sortOrder="10" />
+                            <resource id="Alex_TestProject::question_delete" title="Delete question" sortOrder="20" />
+                        </resource>
+                    </resource>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

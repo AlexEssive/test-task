@@ -1,0 +1,22 @@
+{
+    "name": "Alex/TestProject",
+    "description": "Test project that change contact us form functionality",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "magento/magento-composer-installer": "^1.1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Sobchuk",
+            "email": "alexanderseasone@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Alex\\TestProject\\": ""
+        }
+    }
+}
